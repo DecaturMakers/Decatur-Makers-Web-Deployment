@@ -3,7 +3,7 @@
 ############################################
 
 set :stage, :production
-set :stage_url, "http://decaturmakers.org"
+set :stage_url, "https://decaturmakers.org"
 server "dmdo", user: "deploybot", roles: %w{web app db}
 set :deploy_to, "/var/www/decaturmakers.org"
 

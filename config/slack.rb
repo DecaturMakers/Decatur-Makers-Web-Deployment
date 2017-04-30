@@ -3,9 +3,9 @@
 ############################################
 
 # Required
-set :slack_subdomain, 'example' # if your Slack subdomain is example.slack.com
-set :slack_url, 'slack_token' # https://my.slack.com/services/new/incoming-webhook
+set :slack_subdomain, 'decaturmakers' # if your Slack subdomain is example.slack.com
+set :slack_url, 'https://hooks.slack.com/services/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' # https://my.slack.com/services/new/incoming-webhook
 
 # Optional
-set :slack_channel, '#general'
-set :slack_emoji, ':rocket:'
+set :slack_channel, '#website'
+set :slack_emoji, ':ghost:'

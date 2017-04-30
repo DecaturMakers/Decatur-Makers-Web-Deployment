@@ -1,0 +1,115 @@
+.wrap h2 .nav-tab { padding: 3px 6px 3px; font-size: 16px; }
+.rcp_key_wrap { position: relative; }
+.rcp_show_key { cursor: pointer; color: #21759B; display: inline-block; max-width: 80px; }
+.rcp_key { display: none; color: #555;  }
+.rcp_show_key:hover span { display: inline; }
+.rcp_options_form input.regular-text { border: 1px solid #DFDFDF; }
+#tab_container .tab_content { position: relative; }
+.dragHandle	{ cursor: move; display: block; height: 20px; width: 20px; background: url('../images/cross-hair.png'); }
+#rcp_email_options { width: 320px; float: left; margin: 0 20px 0 0; }
+.rtl #rcp_email_options { width: 320px; float: right; margin: 0 20px 0 0; }
+#rcp_email_tags { position: absolute; left: 500px; top: 60px; z-index: 0;}
+.rtl #rcp_email_tags { position: absolute; right: 500px; top: 60px; z-index: 0;}
+.wp-list-table th { font-size: 12px; }
+#side-info-column td.rcp_meta_box_desc { display: none!important; }
+#rcp-member-search { text-align: right; margin: 0 0 10px; float: right; }
+#rcp-member-search * { text-align: left; display: inline-block; }
+#rcp-members-page .subsubsub { float: none; }
+#payments-filter { width: 200px; float: right; text-align: right; margin: 0 0 5px; }
+#members-filter { margin: 0 0 10px; }
+#members-filter input.regular-text, #payments-filter input.regular-text { width: 30px; }
+#cp-add-new-member td { position: relative; }
+#rcp_user_search_results { position: absolute; }
+#rcp_user_search_results ul { padding: 10px 10px 4px; margin: 0; background: #f0f0f0; border: 1px solid #DFDFDF; width: 300px; max-height: 200px; overflow-y: scroll; }
+#rcp-order { margin-right: 10px; }
+.rcp_payment_details { border-bottom: 1px solid #f0f0f0; width: 400px; }
+.rcp-help .postbox ul li { list-style: disc outside; margin-left: 20px; }
+.rtl .rcp-help .postbox ul li { list-style: disc outside; margin-right: 20px; }
+.rcp-help .postbox h4 { border-bottom: 1px solid #ccc; margin: 30px 0 0 0; padding: 0 0 10px; }
+.center { text-align: center; }
+img.help-image { max-width: 99%; overflow: hidden; border: 1px solid #ccc; }
+/* members page columns */
+.rcp-user-col { width: 100px; }
+.rcp-id-col { width: 50px; }
+.rcp-email-col { width: 180px; }
+.rcp-sub-col { width: 140px; }
+.rcp-status-col { width: 70px; }
+.rcp-recurring-col { width: 90px; }
+.rcp-expiration-col { width: 140px; }
+.rcp-role-col { width: 90px; }
+.rcp-actions-col { }
+/* subscription levels page columns */
+.rcp-sub-order-col {}
+.rcp-sub-id-col { width: 40px; }
+.rcp-sub-name-col {}
+.rcp-sub-desc-col {}
+.rcp-sub-level-col {}
+.rcp-sub-duration-col {}
+.rcp-sub-price-col {}
+.rcp-sub-subs-col {}
+.rcp-sub-actions-col {}
+/* discountcodes page columns */
+.rcp-discounts-id-col { width: 30px; }
+.rcp-discounts-name-col {  }
+.rcp-discounts-desc-col { width: 175px; }
+.rcp-discounts-code-col {  }
+.rcp-discounts-amount-col { width: 80px; }
+.rcp-discounts-type-col { width: 90px; }
+.rcp-discounts-status-col { width: 80px; }
+.rcp-discounts-uses-col { width: 40px; }
+.rcp-discounts-uses-left-col { width: 60px; }
+.rcp-discounts-expir-col {  }
+.rcp-discounts-actions-col { }
+/* error logs */
+#rcp-error-logs .column-log_error { width: 15%; }
+#rcp-error-logs .column-message { width: 65%; }
+/* reports */
+#rcp-graphs-date-options,
+#rcp-date-range-options { float: left; }
+#rcp-date-range-options span { float: left; margin-right: 6px; height: 24px; line-height: 24px; }
+
+/* Optimized for 1280px wide (macbooks) and under */
+@media (max-width: 1280px) {
+	/* members page columns */
+	.rcp-user-col { width: 80px; }
+	.rcp-id-col { width: 50px; }
+	.rcp-email-col { width: 130px; }
+	.rcp-sub-col { width: 120px; }
+	.rcp-status-col { width: 70px; }
+	.rcp-recurring-col { width: 90px; }
+	.rcp-expiration-col { width: 120px; }
+	.rcp-role-col { width: 90px; }
+	.rcp-actions-col { }
+	/* subscription levels page columns */
+	.rcp-sub-order-col {}
+	.rcp-sub-id-col { width: 40px; }
+	.rcp-sub-name-col {}
+	.rcp-sub-desc-col { width: 200px; }
+	.rcp-sub-level-col {}
+	.rcp-sub-duration-col {}
+	.rcp-sub-price-col {}
+	.rcp-sub-subs-col {}
+	.rcp-sub-actions-col {}
+	/* discountcodes page columns */
+	.rcp-discounts-id-col { width: 30px; }
+	.rcp-discounts-name-col { width: 80px; }
+	.rcp-discounts-desc-col { width: 150px; }
+	.rcp-discounts-code-col { width: 60px; }
+	.rcp-discounts-amount-col { width: 60px; }
+	.rcp-discounts-type-col { width: 60px; }
+	.rcp-discounts-status-col { width: 50px; }
+	.rcp-discounts-uses-col { width: 50px; }
+	.rcp-discounts-uses-left-col { width: 80px; }
+	.rcp-discounts-expir-col {  }
+	.rcp-discounts-actions-col { }
+}
+
+/* Optimized for 1024x1064 and under */
+@media (max-width: 1000px) {
+
+}
+
+/* Optimized for Tablets */
+@media (max-width: 800px) {
+
+}
