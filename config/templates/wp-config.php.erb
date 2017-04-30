@@ -22,8 +22,8 @@
   for the `dirname(__FILE__)` method below.
   */
 
-  // define('WP_CONTENT_DIR', realpath(dirname(__FILE__) . '/content'));
-  define('WP_CONTENT_DIR', realpath($_SERVER['DOCUMENT_ROOT'] . '/content'));
+  define('WP_CONTENT_DIR', realpath(dirname(__FILE__) . '/content'));
+  // define('WP_CONTENT_DIR', realpath($_SERVER['DOCUMENT_ROOT'] . '/content'));
 
 	if ( !defined('ABSPATH') ){
 	 define('ABSPATH', dirname(__FILE__) . '/');
