@@ -2,16 +2,16 @@
 # Setup Server
 ############################################
 
-set :stage, :staging
-set :stage_url, "https://staging.decaturmakers.org"
-server "dmdo", user: "deploybot", roles: %w{web app db}
-set :deploy_to, "/var/www/staging.decaturmakers.org"
+set :stage, :legacy
+set :stage_url, "https://decaturmakers.org"
+server "dmlw", user: "decaturm", roles: %w{web app db}
+set :deploy_to, "/home/decaturm/www"
 
 ############################################
 # Setup Git
 ############################################
 
-set :branch, "development"
+set :branch, "master"
 
 ############################################
 # Extra Settings
